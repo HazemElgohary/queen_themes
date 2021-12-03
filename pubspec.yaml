@@ -1,5 +1,5 @@
 name: queen_themes
-description: queen support for multiable themes
+description: queen support for multiple themes
 version: 0.0.3
 # homepage:
 
@@ -8,14 +8,12 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
-  collection: ^1.15.0
   flutter:
     sdk: flutter
-  provider: ^6.0.1
   shared_preferences: ^2.0.9
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  lint:
 
 flutter:

@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         theme: theme,
         home: Scaffold(
           floatingActionButton: FloatingActionButton(
-            onPressed: QTheme.next,
+            onPressed: () => QTheme.next(),
             child: const Icon(Icons.add),
           ),
           body: Center(
